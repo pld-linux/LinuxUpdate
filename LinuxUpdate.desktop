@@ -1,4 +1,4 @@
-[Desktop Entry]
+6c[Desktop Entry]
 Encoding=UTF-8
 Name=LinuxUpdate
 Comment=PLD automatic update notification and upgrade wizard
@@ -7,5 +7,5 @@ Exec=LinuxUpdate
 Icon=LinuxUpdate/avail.xpm
 Terminal=false
 Type=Application
-Categories=GTK;SystemSetup;
+Categories=GTK;System;X-Administration;
 # vi: encoding=utf-8
