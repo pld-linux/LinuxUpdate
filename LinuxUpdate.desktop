@@ -7,5 +7,5 @@ Exec=LinuxUpdate
 Icon=LinuxUpdate/avail.xpm
 Terminal=false
 Type=Application
-Categories=GTK;System;X-Administration;
+Categories=GTK;SystemSetup;
 # vi: encoding=utf-8
