@@ -9,6 +9,7 @@ License:	GPL
 Group:		X11/Applications
 Vendor:		Patryk Zawadzki <patrys@pld-linux.org>
 Source0:	http://wirusy.room-303.com/%{name}.tar.gz
+# Source0-md5:	07bd255f8e34bbeefc3b92b1e895cd07
 Requires:	perl-Gtk2
 Requires:	perl-Gtk2-TrayIcon
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
