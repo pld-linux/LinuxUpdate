@@ -1,14 +1,14 @@
 Summary:	PLD automatic update notification and upgrade wizard
 Summary(pl):	Program powiadamiania o aktualizacjach w PLD
 Name:		LinuxUpdate
-Version:	0.4
-Release:	2
+Version:	0.4.1
+Release:	1
 Epoch:		0
 License:	GPL
 Group:		X11/Applications
 Vendor:		Patryk Zawadzki <patrys@pld-linux.org>
 Source0:	http://patrys.qns.pl/linux/LinuxUpdate/%{name}-%{version}.tar.gz
-# Source0-md5:	6b52f7c0ebce6c3346ac824cc7f641a6
+# Source0-md5:	721fc4a45b3cb208643f5caea06d8565
 Source1:	%{name}.desktop
 Requires:	perl-Gtk2
 Requires:	perl-Gtk2-TrayIcon
@@ -28,7 +28,7 @@ Program powiadamiania o aktualizacjach w PLD.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_pixmapsdir}/LinuxUpdate,%{_bindir},%{_desktopdir}}
 
-install *.xpm $RPM_BUILD_ROOT%{_pixmapsdir}/LinuxUpdate
+install *.svg $RPM_BUILD_ROOT%{_pixmapsdir}/LinuxUpdate
 install LinuxUpdate $RPM_BUILD_ROOT%{_bindir}
 install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 
