@@ -9,7 +9,7 @@ Group:		X11/Applications
 Vendor:		Patryk Zawadzki <patrys@pld-linux.org>
 Source0:	http://wirusy.room-303.com/LinuxUpdate/%{name}-%{version}.tar.gz
 # Source0-md5:	c601875e6aab0479218f7baa8567314a
-Source1:	LinuxUpdate.desktop
+Source1:	%{name}.desktop
 Requires:	perl-Gtk2
 Requires:	perl-Gtk2-TrayIcon
 BuildArch:	noarch
