@@ -2,7 +2,7 @@ Summary:	PLD automatic update notification and upgrade wizard
 Summary(pl):	Program powiadamiania o aktualizacjach w PLD
 Name:		LinuxUpdate
 Version:	0.4.1
-Release:	1
+Release:	2
 Epoch:		0
 License:	GPL
 Group:		X11/Applications
@@ -16,19 +16,22 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-PLD automatic update notification and upgrade wizard.
+PLD automatic update notification and upgrade wizard. This program lets
+you know when new packages are ready for upgrade and allows you to update
+selected components.
 
 %description -l pl
-Program powiadamiania o aktualizacjach w PLD.
+Program powiadamiania o aktualizacjach w PLD i umo¿liwia dokonanie
+aktualizacji wybranych pakietów.
 
 %prep
 %setup -q -n %{name}
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_pixmapsdir}/LinuxUpdate,%{_bindir},%{_desktopdir}}
+install -d $RPM_BUILD_ROOT{%{_pixmapsdir},%{_bindir},%{_desktopdir}}
 
-install *.svg $RPM_BUILD_ROOT%{_pixmapsdir}/LinuxUpdate
+install *.svg $RPM_BUILD_ROOT%{_pixmapsdir}
 install LinuxUpdate $RPM_BUILD_ROOT%{_bindir}
 install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 
@@ -39,4 +42,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/*
 %attr(644,root,root) %{_desktopdir}/*
-%{_pixmapsdir}/LinuxUpdate
+%attr(644,root,root) %{_pixmapsdir}/*
