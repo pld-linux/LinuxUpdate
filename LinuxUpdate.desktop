@@ -7,5 +7,5 @@ Exec=LinuxUpdate
 Icon=LinuxUpdate/LinuxUpdate-logo
 Terminal=false
 Type=Application
-Categories=GTK;SystemSetup;
+Categories=GTK;System;
 # vi: encoding=utf-8
