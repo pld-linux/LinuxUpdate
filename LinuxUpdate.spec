@@ -1,16 +1,17 @@
 Summary:	PLD automatic update notification and upgrade wizard
 Summary(pl):	Program powiadamiania o aktualizacjach w PLD
 Name:		LinuxUpdate
-Version:	0.1
+Version:	0.2
 Release:	1
 Epoch:		0
 License:	GPL
 Group:		X11/Applications
 Vendor:		Patryk Zawadzki <patrys@pld-linux.org>
-Source0:	http://wirusy.room-303.com/%{name}.tar.gz
-# Source0-md5:	07bd255f8e34bbeefc3b92b1e895cd07
+Source0:	http://wirusy.room-303.com/LinuxUpdate/%{name}-%{version}.tar.gz
+# Source0-md5:	c601875e6aab0479218f7baa8567314a
 Requires:	perl-Gtk2
 Requires:	perl-Gtk2-TrayIcon
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
