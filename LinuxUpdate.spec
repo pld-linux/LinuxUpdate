@@ -2,7 +2,7 @@ Summary:	PLD automatic update notification and upgrade wizard
 Summary(pl):	Program powiadamiania o aktualizacjach w PLD
 Name:		LinuxUpdate
 Version:	0.3.1
-Release:	1
+Release:	2
 Epoch:		0
 License:	GPL
 Group:		X11/Applications
