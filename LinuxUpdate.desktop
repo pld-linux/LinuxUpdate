@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=LinuxUpdate
+Comment=PLD automatic update notification and upgrade wizard
+Comment[pl]=Program powiadamiający o aktualizacjach w PLD
+Exec=LinuxUpdate
+Icon=LinuxUpdate/avail.xpm
+Terminal=false
+Type=Application
+Categories=SystemSetup;
+# vi: encoding=utf-8
