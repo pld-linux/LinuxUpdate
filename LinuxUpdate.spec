@@ -9,7 +9,7 @@ Group:		X11/Applications
 Vendor:		Patryk Zawadzki <patrys@pld-linux.org>
 Source0:	http://wirusy.room-303.com/%{name}.tar.gz
 Requires:	perl-Gtk2
-Requires:	perl-Gtk2-Trayicon
+Requires:	perl-Gtk2-TrayIcon
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
