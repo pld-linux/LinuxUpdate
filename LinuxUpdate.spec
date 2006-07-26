@@ -6,7 +6,6 @@ Release:	1
 Epoch:		0
 License:	GPL
 Group:		X11/Applications
-Vendor:		Patryk Zawadzki <patrys@pld-linux.org>
 Source0:	http://patrys.qns.pl/linux/LinuxUpdate/%{name}-%{version}.tar.gz
 # Source0-md5:	720daf8db7476e367c85bc2609c7cc8d
 Source1:	%{name}.desktop
@@ -16,9 +15,9 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-PLD automatic update notification and upgrade wizard. This program lets
-you know when new packages are ready for upgrade and allows you to update
-selected components.
+PLD automatic update notification and upgrade wizard. This program
+lets you know when new packages are ready for upgrade and allows you
+to update selected components.
 
 %description -l pl
 Program powiadamiania o aktualizacjach w PLD i umo¿liwia dokonanie
@@ -41,5 +40,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/*
-%attr(644,root,root) %{_desktopdir}/*
-%attr(644,root,root) %{_pixmapsdir}/*
+%{_desktopdir}/*
+%{_pixmapsdir}/*
