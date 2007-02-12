@@ -1,5 +1,5 @@
 Summary:	PLD automatic update notification and upgrade wizard
-Summary(pl):	Program powiadamiania o aktualizacjach w PLD
+Summary(pl.UTF-8):   Program powiadamiania o aktualizacjach w PLD
 Name:		LinuxUpdate
 Version:	0.5
 Release:	1
@@ -19,9 +19,9 @@ PLD automatic update notification and upgrade wizard. This program
 lets you know when new packages are ready for upgrade and allows you
 to update selected components.
 
-%description -l pl
-Program powiadamiania o aktualizacjach w PLD i umoøliwia dokonanie
-aktualizacji wybranych pakietÛw.
+%description -l pl.UTF-8
+Program powiadamiania o aktualizacjach w PLD i umo≈ºliwia dokonanie
+aktualizacji wybranych pakiet√≥w.
 
 %prep
 %setup -q -n %{name}
