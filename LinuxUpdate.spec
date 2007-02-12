@@ -1,5 +1,5 @@
 Summary:	PLD automatic update notification and upgrade wizard
-Summary(pl.UTF-8):   Program powiadamiania o aktualizacjach w PLD
+Summary(pl.UTF-8):	Program powiadamiania o aktualizacjach w PLD
 Name:		LinuxUpdate
 Version:	0.5
 Release:	1
